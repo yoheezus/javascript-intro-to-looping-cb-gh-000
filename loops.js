@@ -11,9 +11,10 @@ function forLoop(array) {
     return array
 }
 
+
+
 function doWhileLoop(array) {
-    while (array.length > 0) {
+    do {
         array.pop()
-    }
-    return array
+    }while (array.length > 0)
 }
